@@ -323,7 +323,7 @@ footer a:hover{
 }  
 
 /* 400 */
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 
   .rating{
     flex-direction: column;
@@ -337,8 +337,10 @@ footer a:hover{
 
   .feedbacks{
     width: auto;
+    margin: auto;
   }
 
 }
+
 
 
