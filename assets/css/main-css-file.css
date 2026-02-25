@@ -1064,15 +1064,19 @@ header{
   width: 12vw;
 }
 
+.work .sec:hover .bttns {
+    width: 55vw;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+    .bttns .bttn svg {
+        width: 10vw;
+    }
+
 .bttns .bttn a {
 font-size: 4vw;
 }
-
-.bttns .bttn svg {
-  width: 7vw;
-}
-
-
 /* end of work  */
 
 /* srart of skills  */
@@ -1196,16 +1200,6 @@ footer .social-med svg {
 /* little screens  */
 @media (max-width:400px) {
 
-.work .sec:hover .bttns {
-    width: 55vw;
-    flex-direction: column;
-    margin-inline: auto;
-}
-
-    .bttns .bttn svg {
-        width: 10vw;
-    }
-
   .contact form label input{
     width: 37vw;
   }
@@ -1230,5 +1224,6 @@ footer .social-med svg {
     translate: -100%;
   }
 }
+
 
 /* end of animation for skills section   */
